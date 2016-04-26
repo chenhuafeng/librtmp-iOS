@@ -306,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2B0E07EEAC3E3646CB691BA /* Pods-rtmp.debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -319,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D7F051204BA3ABD6E59156C /* Pods-rtmp.release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
